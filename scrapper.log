@@ -5411,3 +5411,28 @@ INFO:werkzeug: * Detected change in 'E:\\JUPYTER\\Week7_pwskills\\review-scrappe
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 109-180-482
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-180-482
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2024 02:05:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2024 02:05:09] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2024 02:05:09] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'redmi14', 'Name': 'Vipul Chaudhary', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Best mobile in this segment \U0001f64f\U0001f601'}, {'Product': 'redmi14', 'Name': 'MIRZA KAZIM Ali BAIG', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Nice phone for normal uses fancy design .Front cemra is only 8 megapixel, plz'}, {'Product': 'redmi14', 'Name': 'faiz ali', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'Camera not good but phone is good'}, {'Product': 'redmi14', 'Name': 'MUNUSAMY PERUMAL', 'Rating': '4', 'CommentHead': 'Pretty good', 'Comment': 'NICE MOBAILE LIGHT WEIGHT....'}, {'Product': 'redmi14', 'Name': 'Soumya Naskar', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Good looking and no issues...'}, {'Product': 'redmi14', 'Name': 'Dhananjay Khajbage', 'Rating': '3', 'CommentHead': 'Does the job', 'Comment': 'Best mobile'}, {'Product': 'redmi14', 'Name': 'Vishakha  Singh ', 'Rating': '4', 'CommentHead': 'Not good', 'Comment': 'Sound quality is not good'}, {'Product': 'redmi14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Good \U0001f44d\U0001f3fb'}, {'Product': 'redmi14', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Nice phone , camera is average , battery enough for a day  and design is good'}, {'Product': 'redmi14', 'Name': 'Ghanshyam Chauhan', 'Rating': '5', 'CommentHead': 'Decent product', 'Comment': 'Good product'}, {'Product': 'redmi14', 'Name': 'Ghanshyam Chauhan', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Good product'}]
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2024 02:05:31] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2024 02:05:31] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2024 02:05:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone12', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'This z my frst iphone n … outstanding phone …must buy.\U0001f60d\U0001f60d\U0001f60d\U0001f60d\U0001f60d'}, {'Product': 'iphone12', 'Name': 'Sibsankar Das', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Camera quality is just fabulous. Interface is very smooth.  Good for photography and videography.'}, {'Product': 'iphone12', 'Name': 'Rupesh Thik', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Awesome Camera'}, {'Product': 'iphone12', 'Name': 'Sivaramaraju Raju', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Best iPhone till date \U0001f495'}, {'Product': 'iphone12', 'Name': 'Jaya chandra  Reddy', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Amazing phone  In love with this phone'}, {'Product': 'iphone12', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Everything is great except the battery life, camera is awesome'}, {'Product': 'iphone12', 'Name': 'Arjun  Chakravarti ', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Awesome'}, {'Product': 'iphone12', 'Name': 'Ankur Sharma', 'Rating': '4', 'CommentHead': 'Very Good', 'Comment': 'display is good , processor is awesome'}, {'Product': 'iphone12', 'Name': 'Hariprasad b', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Performance is soooo fastEspecially faceid detection is awesome even in darkNo need to carry an dslr .this is more than enough attaching puc taken by this'}, {'Product': 'iphone12', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Wow superb camera phone Very smooth speed and no lag , iphone is the king always Its a beautiful product'}, {'Product': 'iphone12', 'Name': 'Flipkart Customer', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Wow superb camera phone Very smooth speed and no lag , iphone is the king always Its a beautiful product'}]
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2024 02:06:24] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2024 02:06:24] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2024 02:06:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
